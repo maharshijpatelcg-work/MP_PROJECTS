@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const settingsOverlay = document.getElementById('settings-overlay');
     const infoBtn = document.getElementById('info-btn');
     const settingsBtn = document.getElementById('settings-btn');
-    const closeInfoBtn = document.getElementById('close-info-btn');
     const closeSettingsBtn = document.getElementById('close-settings-btn');
 
     // Retrieve state from local storage or set defaults
@@ -84,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         infoOverlay.classList.remove('hidden');
     });
 
-    closeInfoBtn.addEventListener('click', () => {
+    infoOverlay.addEventListener('click', () => {
         infoOverlay.classList.add('hidden');
     });
 
