@@ -22,22 +22,6 @@ It helps users easily count, track, and manage numbers with additional control f
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Screen
-
-![Home](./screenshots/home.png)
-
-### 🔢 Counter Interface
-
-![Counter](./screenshots/counter.png)
-
-### ⚙️ Settings Panel
-
-![Settings](./screenshots/settings.png)
-
----
-
 ## 🚀 Tech Stack
 
 * HTML5
